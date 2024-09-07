@@ -1,0 +1,44 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+/* Container for layout */
+.home {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Navbar styles */
+app-navbar {
+    background-color: #333; /* Dark background for the navbar */
+    color: #fff;
+    padding: 10px 20px;
+    position: sticky; /* Or use fixed if you want it to always stay visible */
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Ensures it stays above other content */
+}
+
+/* Footer styles */
+app-footer {
+    background-color: #282c34; /* Dark background for the footer */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-top: auto; /* Pushes the footer to the bottom of the page */
+}
+
+/* Ensure the content area has some margin to avoid overlapping with the fixed navbar */
+.content {
+    flex: 1;
+    padding: 20px;
+}
