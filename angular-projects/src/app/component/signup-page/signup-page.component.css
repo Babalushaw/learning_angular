@@ -1,0 +1,60 @@
+/* General styling for the entire form */
+.signup-form {
+    font-family: Arial, sans-serif; /* Font style for the form */
+    background-color: #f9f9f9; /* Background color for the form */
+    padding: 20px;
+    border-radius: 8px; /* Rounded corners for the form */
+    max-width: 400px; /* Maximum width of the form */
+    margin: 0 auto; /* Center the form horizontally */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+/* Styling for each input area */
+.input-area {
+    margin-bottom: 15px; /* Space between each input area */
+}
+
+/* Styling for the headings */
+.text-h3 {
+    font-size: 16px; /* Font size for the headings */
+    color: #333; /* Text color for the headings */
+    margin-bottom: 5px; /* Space below the heading */
+}
+
+/* Styling for the input boxes */
+.input-box {
+    width: 100%; /* Full width of the input box */
+    padding: 10px; /* Padding inside the input box */
+    border: 1px solid #ccc; /* Border color and style */
+    border-radius: 4px; /* Rounded corners for the input box */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    font-size: 14px; /* Font size inside the input box */
+    transition: border-color 0.3s, box-shadow 0.3s; /* Transition effect for border color and box shadow */
+}
+
+/* Styling for the input box on hover */
+.input-box:hover,
+.input-box:focus {
+    border-color: #007bff; /* Change border color on hover/focus */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Add shadow effect on hover/focus */
+    outline: none; /* Remove default outline */
+}
+
+/* Styling for the submit button */
+.sub-btn {
+    width: 100%; /* Full width of the button */
+    padding: 10px; /* Padding inside the button */
+    background-color: #007bff; /* Background color of the button */
+    color: white; /* Text color of the button */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Rounded corners for the button */
+    font-size: 16px; /* Font size for the button */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s, transform 0.2s; /* Transition effect for background color and scale */
+}
+
+/* Styling for the button on hover */
+.sub-btn:hover {
+    background-color: #0056b3; /* Darker background color on hover */
+    transform: scale(1.05); /* Slightly increase the size on hover */
+}
